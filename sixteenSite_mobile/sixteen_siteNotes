@@ -1,0 +1,521 @@
+Nav/Menu bar: background-color: #acd373;
+W x H (320, 40)
+
+	Menu block: background-color: #89a85c;
+		Bars: color: #cbd7b9
+		w x h (40, 40)
+
+1 section: background-color #9abd67;
+Description - Green bg w/ city overlay
+	gradient: none
+	w x h (360 x 350)
+	h2
+		T - SourceSansPro Bold
+		f - 20px
+		lh - auto
+	h2
+		T - DroidSerif Italic
+		f - 13 px
+		lh - auto
+    cityscape
+      (360, 85)
+    file: cityscape.png
+
+========================================
+2 section: background-color: #f7f7f7;
+Description - White w/ phone icon
+	file: iPhone_icon.png
+	place: 43pxv from section brkmm
+	gradient: none
+	w x h (360 x 350)
+	left margin for block (29px)
+	h1
+		place: 45pxv from phone png
+		icon - man449.png
+			place - 36pxv from iPhone.png
+		T - SourceSansPro Reg
+		f - 18px
+		lh - auto
+		color: #454545
+	body copy
+			place - 23pxv from man icon
+		T - SourceSansPro Reg
+		f - 13px
+		lh - auto
+		color: #454545
+	button(css) - (90,30)
+			place: 28px from body copy
+		T - DroidSerif Italic
+		f - 13px
+		lh - auto
+	padding-bottom: 47px
+
+========================================
+3 section: background-color: #f7f7f7;
+Description - Video panel
+	file: Second (video).jpg
+	gradient: none
+	w x h (360, 260)
+
+========================================
+4 section: background-color: #f7f7f7;
+Description - Our Services
+	margin-top: 43px
+
+	h1 (centered)
+		T - SourceSansPro Reg
+		f - 18px
+		color1: 454545
+		color2: #acd373
+	quote (centered)
+		T - MyriadPro Reg
+		f - 12px
+		color: #454545
+	hr
+		file: horz_rule.png
+		place: 16pxv from quote
+	h2 (x3)
+			place: 37pxv from hr
+		T - SourceSans Bold
+		f - 14px
+		color: #acd373
+		copy (x3)
+				place - 13pxv from h2
+			T - SourceSans Reg
+			f - 13px
+			color: #454545
+	button(css)
+			place - 49px from last icon
+			bottom-margin: 47pxv to next section
+		T - DroidSerif Italic (MyriadPro Reg)
+		f - 11px
+		color: #acd373
+	icons
+			place - 30pxv from icon above
+							37pxv from hr
+		file: paintBrush.png
+		file: phoneIcon.png
+		file: monitorIcon.png
+
+========================================
+5 section: background-color: #acd373;
+Description - Amazing Team
+	section (360, 485)
+
+	h1
+			place - padding-top: 47px
+		T - SourceSansPro Reg
+		f - 18px
+		color1: #454545
+	h2 (quote)
+			place - padding-top: 13px
+		T - Droidserif(Myriad Pro)
+		f - 12px
+	hr
+		file - horz_rule.png
+		place - 13pxv from quote
+	Team box
+			place - 52px from horz rule
+	section (200, 182)
+	h3 (team box)
+		T - SourceSansPro
+		f - 14px(all caps)
+		color: #acd373
+	p (team position)
+		T - DroidSerif(italic)
+		f - 12px
+		color: #787878
+	socialMediaBar
+	section (200,50)
+		background-color: #ebebeb
+	icons (23,23)
+		Facebook:	fbIcon.png
+		twitterIcon.png
+		linkedIcon.png
+		leftArrow.png
+		rightArrow.png
+			place - 30px padding-left
+							28px padding-right
+		teamPhoto1.png (70,70)
+			border - 5px
+	teamFooterBar 
+		p1 - SansSource
+		f - 13px
+		color - #f7f7f7
+		.bg_bottom {
+			  background-color: rgb(154, 189, 103);
+			  position: absolute;
+			  left: 0px;
+			  top: 2069px;
+			  width: 360px;
+			  height: 66px;
+			  z-index: 249;
+			}
+		button
+			T - DroidSerif Italic
+			f - 11px
+			color: #f7f7f7
+			border-color: #f7f7f7
+				.Button_Outline {
+				  border-width: 1px;
+				  border-color: rgb(247, 247, 247);
+				  border-style: solid;
+				  width: 98px;
+				  height: 28px;
+				  z-index: 254;
+				}
+
+========================================
+6 section: background-color: #acd373;
+Description - Recent Works
+.background {
+  background-color: rgb(247, 247, 247);
+  width: 360px;
+  height: 520px;
+  z-index: 208;
+}
+h1
+	 place - 53pxv from section
+	 T - Myriad Pro Reg
+	 f - 18px
+	 color: #454545
+	 color2: #acd373
+quote
+	place - 14pxv from h1
+	T - Myriad Pro Reg
+	f - 12px
+hr
+	file: horz_rule.png
+	place - 14px from quote
+example
+	file: example1.jpg
+	place - 53px from hr
+	size - (300,163) 30px margins
+exampleBar
+	(300,80)
+	h1
+		place - 25px padding
+		T - Source Sans Bold
+		f - 14px
+	h2
+		place - 9px from h1
+		T - Myriad Pro Reg
+		f - 12px
+	button
+		place - 45px from Bar
+		.Button_Outline {
+		  border-width: 1px;
+		  border-color: rgb(172, 211, 115);
+		  border-style: solid;
+		  position: absolute;
+		  left: 130px;
+		  top: 2578px;
+		  width: 98px;
+		  height: 28px;
+		  z-index: 218;
+		}
+			T - Droid Italic
+			f - 11px
+			padding-bottom: 47px;
+-----------------------------
+envatoBar
+	files: forestLogo.png
+					studioLogo.png
+	place - 27pxv from bar
+	color: #ebebeb
+	.background {
+		  background-color: rgb(235, 235, 235);
+		  position: absolute;
+		  left: 0px;
+		  top: 2655px;
+		  width: 360px;
+		  height: 80px;
+		  z-index: 210;
+		}	
+
+========================================
+7 section: background-color: none(photo);
+Description - Testimonials
+.bg {
+  background-color: rgb(247, 247, 247);
+  position: absolute;
+  left: -320px;
+  top: 2735px;
+  width: 932px;
+  height: 562px;
+  z-index: 163;
+}
+
+Quotebox
+	place - 61pxv from section top
+	T - Myriad Pro Italic
+	f - 12px
+	blockquotes
+		T - DroidSerif
+		f - 48px
+		place - (254,56) from tlc of box
+
+quoteProfile
+	place - 55pxv from quotebox
+h1
+	T - Source Sans Bold
+	f - 14px
+h2
+		place - 18pxv from h1
+	T - Myriad Pro italic
+	f - 12px
+	diskPhoto
+		place - 31px padding-left
+						24px padding-top
+		(82,82)
+
+carouselMarkers
+	place - 49px from h2
+	color - #f7f7f7;
+	wh (11,11)
+
+testimonialText
+h1	
+	place - 
+	T - Source Sans
+	f - 18px
+	<p>
+		place - 22px from h1
+		T - Source Sans Reg
+		f - 13px
+
+testimonialButton
+.Button_Outline {
+  border-width: 1px;
+  border-color: rgb(172, 211, 115);
+  border-style: solid;
+  position: absolute;
+  left: 30px;
+  top: 3218px;
+  width: 118px;
+  height: 28px;
+  z-index: 171;
+}
+.button_text {
+  font-size: 11px;
+  font-family: "DroidSerif";
+  color: rgb(172, 211, 115);
+  font-style: italic;
+  line-height: 1.2;
+  text-align: left;
+}
+
+========================================
+8 section: background-color: #f7f7f7;
+Description - Blog
+
+.background {
+  background-color: rgb(247, 247, 247);
+  top: 3296px;
+  width: 360px;
+  height: 612px;
+}
+h1
+	place - 54pxv from section
+	T - Sans Source Reg
+	f - 18px
+quote
+	place - 13px from h1
+	T - 
+	f - 12px
+hr
+	place - 16px from quote
+
+startPhoto blocks
+	place - 39pxv from hr
+					14px from left
+					12px between
+					14px from right
+	spacing btw blocks - 16px
+
+textblock below photo
+	photos - (160, 97)
+	background-color: #ebebeb
+	wh (160, 72)
+	h to txt: 35px
+	T - SourceSans Semibold
+	f - 10.93px
+greenButton below textblock
+	wh (160, 30) color: #acd373
+	.Read_More {
+	  font-size: 14px;
+	  font-family: "Myriad Pro";
+	  color: rgb(247, 247, 247);
+	  line-height: 1.2;
+	  text-align: center;
+	}
+	to end of section 57pxv
+
+
+sectionIcons (20,20)
+	files - earthIcon.png
+					mobileIcon.png
+					screenIcon.png
+					businessIcon.png
+
+Newsletter block
+ wh (360,62)
+	 .bg_bottom {
+	  background-color: rgb(172, 211, 115);
+	  position: absolute;
+	  left: 0px;
+	  top: 3909px;
+	  width: 360px;
+	  height: 62px;
+	}
+	place text - 10px from left
+							26px from top of section
+	button
+		from left - 210px
+		from top - 19px
+
+		buttonIcon - bgColor #f7f7f7
+			(30, 25)
+
+========================================
+9 section: background-color: #;
+Description - Map
+	wh (360,129)
+	file: map.jpg
+
+& symbol icon
+	.logo {
+  font-size: 38px;
+  font-family: "ThirstyRoughReg";
+  color: rgb(247, 247, 247);
+  line-height: 1.2;
+  text-align: left;
+  text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+========================================
+10 section: background-color: #;
+Description - Contact form
+
+.background {
+  background-color: rgb(172, 211, 115);
+  position: absolute;
+  width: 360px;
+  height: 450px;
+}
+
+h1 (Contact)
+	T - SourceSans Reg
+	f - 17.9px
+	place - 45px from section
+
+hr
+	place - 13pxv from h1
+	file: horz_rule.png
+
+		.Contact {
+		  position: absolute;
+		  left: 0px;
+		  top: 0px;
+		  width: 360px;
+		  height: 4650px;
+		  z-index: 48;
+		}
+
+.Name {
+  font-size: 26.35px;
+  font-family: "Source Sans Pro";
+  color: rgb(247, 247, 247);
+  line-height: 0.911;
+  text-align: left;
+  position: absolute;
+  left: 13.623px;
+  z-index: 47;
+}
+.Carlos_Shorter {
+  font-size: 20.704px;
+  font-family: "DroidSerif";
+  color: rgb(247, 247, 247);
+  font-style: italic;
+  line-height: 1.159;
+  text-align: left;
+  position: absolute;
+  left: 14.257px;
+  z-index: 46;
+}
+Name / Email form field details
+.Placeholder {
+  background-color: rgb(154, 189, 103);
+  position: absolute;
+  left: 30px;
+  width: 301px;
+  height: 28px;
+  z-index: 45;
+}
+
+Message box details
+		.Placeholder {
+		  background-color: rgb(154, 189, 103);
+		  left: 30px;
+		  width: 302px;
+		  height: 84px;
+		  z-index: 34;
+		}
+		.message_text {
+	  font-size: 20.704px;
+	  font-family: "DroidSerif";
+	  color: rgb(247, 247, 247);
+	  font-style: italic;
+	  line-height: 1.063;
+	  text-align: left;
+	  width: 520.674px;
+	  height:
+Send Button
+	place - 26pxv from message box
+	.Button_Outline {
+	  background-color: rgb(154, 189, 103);
+	  position: absolute;
+	  left: 70px;
+	  width: 220px;
+	  height: 32px;
+	  z-index: 30;
+	}
+
+
+========================================
+11 section: background-color: #;
+Description - Social Media / Footer
+
+.footer_bg {
+  background-color: rgb(154, 189, 103);
+  position: absolute;
+  left: 0px;
+  width: 360px;
+  height: 100px;
+  z-index: 4;
+}
+
+Social media icons
+	(26, 26)
+	fbBtm.png
+	tweetBtm.png
+	utubeBtm.png
+	dribbbleBtm.png
+	behanceBtm.png
+	deviantartBtm.png
+	instagramBtm.png
+	linkedinBtm.png
+
+Copyright text
+	.copyright {
+  font-size: 13px;
+  font-family: "Source Sans Pro";
+  color: rgb(247, 247, 247);
+  line-height: 1.2;
+  text-align: center;
+	}
+
+========================================
+
+
+
