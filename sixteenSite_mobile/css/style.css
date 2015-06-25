@@ -1,0 +1,176 @@
+/* Sixteen Site CSS */
+
+body {
+  font-size: 16px;
+  background-color: #9e9e9e;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.sr-only {
+  text-indent: 9999em;
+  overflow: hidden;
+}
+
+nav {
+  background-color: #acd373;
+  height: 40px;
+  width: 360;
+  box-shadow: 2px, 2px, 4px, rgba(0,0,0, 0.6);
+}
+
+.logo {
+  background-image: url('../img/sixteen_logo.png');
+  width: 70px;
+  height: 23px;
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 30px;
+}
+
+.toggle {
+    background: #89a85c url('../img/toggle.png') no-repeat center center;
+    width: 11px;
+    height: 10px;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+.intro {
+    color: #f7f7f7;
+    height: 350px;
+    background: #9abd67 url('../img/cityscape.png') no-repeat bottom center;
+}
+
+.intro > div {
+    text-align: center;
+    padding-top: 125px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.arrow {
+    background-image: url('../img/arrow.png');
+    width: 25px;
+    height: 14px;
+    display: inline-block;
+    margin-top: 57px;
+}
+
+/* ===== about section ===== */
+
+.about {
+  background-color: #f7f7f7;
+  width: 360px;
+  height: 500px;
+}
+
+.about > img {  /*phone img only*/
+  display: block;
+  margin: 0 auto;
+  padding-top: 43px;
+}
+
+.about h3 {
+  color: #454545;
+  background: url('../img/man449.png') no-repeat;
+  margin-left: 29px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  margin-top: 36px;
+  line-height: 30px; /*IMPORTANT*/
+  vertical-align: 30px;
+  display: inline-block;
+  padding-left: 43px;
+  
+}
+
+.about > h3 img {
+  padding-right: ;
+}
+
+.about p {
+  color: #454545;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  margin-left: 29px;
+  padding-right: 34px;
+  padding-bottom: 29px 
+}
+
+.about button {
+  background-color: #f7f7f7;
+  color: #acd373;
+  margin-left: 29px; /* is this okay? */
+  width: 90px;
+  height: 30px;
+  /*display: block; <-- is this right instead?*/
+  border: 1px solid #acd373;
+}
+
+.about > button > a {
+  text-decoration: none;
+  color: #acd373;
+}
+
+/* ===== video section ====== */
+.video > a {
+  background: url('../img/videoImg.jpg') no-repeat;
+  width: 360px;
+  height: 258px;
+  display: inline-block;
+}
+
+/* ===== services section ====== */
+
+.services {
+  background-color: #f7f7f7;
+  width: 360px;
+  height: 500px;
+  display: block;
+}
+
+
+
+.servlist  div {
+  padding-top: 43px;
+  padding-left: 29px;
+  
+}
+
+.services button {
+  background-color: #f7f7f7;
+  color: #acd373;
+  margin: 0 auto; /* is this okay? */
+  width: 90px;
+  height: 30px;
+  display: block; /*<-- is this right instead?*/
+  border: 1px solid #acd373;
+}
+
+.services > button > a {
+  text-decoration: none;
+  color: #acd373;
+}
+
+
+
+
+
+
+
+
