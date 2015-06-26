@@ -165,15 +165,15 @@ h2 {
   padding-top: 12px;
 }
 
+.secthead span {
+  color: #acd373;
+}
+
 .horzrule {
   display: block;
   padding-top: 16px;
   padding-bottom: 37px;
   margin: 0 auto;
-}
-
-.secthead span {
-  color: #acd373;
 }
 
 .servcont {
@@ -241,13 +241,34 @@ img, .servitem {
   background-color: #acd373;
 }
 
+.teamarrow {
+  display: inline-block;
+  line-height:  182px;
+  margin-left: 27px;
+  margin-right: 27px;
+  padding-top: 56px;
+}
+
 .teamsect {
+  display: inline-block;
   width: 200px;
   height: 182px;
   background-color: #f7f7f7;
-  border-radius: 5px;
-  margin: 0 auto;
+  border-radius: 6px;
+  margin: 20px auto;
   text-align: center;
+  vertical-align: middle;
+}
+
+.teamsect h5 {
+  color: #acd373;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.teamsect span {
+  color: #454545;
+  font-family: 'Droid Serif', serif;
+  font-size: 12px;
 }
 
 .photo > img {
@@ -259,23 +280,108 @@ img, .servitem {
 }
 
 .socialbar {
-  text-align: center;
-  line-height: 50px;
-  width: 200px;
   height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 200px;
   background-color: #ebebeb;
+  margin-top: 20px;
+  border-radius: 0 0 6px 6px;
 }
 
 .teamsect li {
-  vertical-align: bottom;
-  display: inline;
-  padding: 0 2.5px;
+  padding-top: 12px;
+  vertical-align: middle;
+  display: inline-block;
   list-style: none;
+}
 
+.joinbar {
+  background-color: rgb(154,189,103);
+  width: 360px;
+  height: 66px;
+  line-height: 66px;
+}
+
+.joinbar span {
+  color: #f7f7f7;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.joinbar button {
+  background-color: rgb(154,189,103);
+  color: #acd373;
+  width: 90px;
+  height: 30px;
+  display: inline-block; /*<-- is this right instead?*/
+  border: 1px solid #f7f7f7;
+  margin-left: 30px;
+}
+
+.joinbar button > a {
+  font-family: 'Droid Serif', serif;
+  font-size: 10px;
+  font-style: italic;
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+/* ===== recent work section 6 ====== */
+
+.work {
+  background-color: #f7f7f7;
+  width: 360px;
+  height: 520px;
+}
+
+.examplebar {
+  display: block;
+  width: 300px;
+  height: 80px;
+  background-color: #ebebeb;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.examplebar h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  color: #454545;
+}
+
+.examplebar span {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+
+}
+
+.work img {
+  display: block;
+  margin: 0 auto;
 }
 
 
 
+.work button {
+  color: #acd373;
+  width: 90px;
+  height: 30px;
+  display: block; /*<-- is this right instead?*/
+  border: 1px solid #acd373;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.work button > a {
+  font-family: 'Droid Serif', serif;
+  font-size: 10px;
+  font-style: italic;
+  text-decoration: none;
+  color: #acd373;
+}
 
 
 
