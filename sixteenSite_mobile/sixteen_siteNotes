@@ -7,9 +7,10 @@ W x H (320, 40)
 
 1 section: background-color #9abd67;
 Description - Green bg w/ city overlay
+	file: cityscape.png
 	gradient: none
 	w x h (360 x 350)
-	h2
+	h1
 		T - SourceSansPro Bold
 		f - 20px
 		lh - auto
@@ -17,9 +18,9 @@ Description - Green bg w/ city overlay
 		T - DroidSerif Italic
 		f - 13 px
 		lh - auto
-    cityscape
-      (360, 85)
-    file: cityscape.png
+
+	Arrow icon
+		file: arrow.png
 
 ========================================
 2 section: background-color: #f7f7f7;
@@ -27,7 +28,7 @@ Description - White w/ phone icon
 	file: iPhone_icon.png
 	place: 43pxv from section brkmm
 	gradient: none
-	w x h (360 x 350)
+	w x h (360 x 500)
 	left margin for block (29px)
 	h1
 		place: 45pxv from phone png
@@ -60,6 +61,7 @@ Description - Video panel
 ========================================
 4 section: background-color: #f7f7f7;
 Description - Our Services
+	(360, 500)
 	margin-top: 43px
 
 	h1 (centered)
@@ -469,7 +471,10 @@ Message box details
 	  line-height: 1.063;
 	  text-align: left;
 	  width: 520.674px;
-	  height:
+	  height: 41.598px;
+	  z-index: 36;
+		}
+
 Send Button
 	place - 26pxv from message box
 	.Button_Outline {
