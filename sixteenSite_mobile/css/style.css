@@ -87,11 +87,7 @@ h2 {
 
 .about h3 {
   color: #454545;
-<<<<<<< HEAD
   background: url('../img/manIcon.png') no-repeat;
-=======
-  background: url('../img/man449.png') no-repeat;
->>>>>>> origin/master
   margin-left: 29px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
@@ -101,10 +97,6 @@ h2 {
   display: inline-block;
   padding-left: 43px;
   
-}
-
-.about > h3 img {
-  padding-right: ;
 }
 
 .about p {
@@ -127,34 +119,23 @@ h2 {
 }
 
 .about > button > a {
-<<<<<<< HEAD
   font-family: 'Droid Serif', serif;
   font-size: 11px;
   font-style: italic;
-=======
->>>>>>> origin/master
   text-decoration: none;
   color: #acd373;
 }
 
 /* ===== video section ====== */
-<<<<<<< HEAD
 
 .video {
+  width: 360px;
+  height: 260px;
    
 }
 
-=======
->>>>>>> origin/master
 .video > a {
-  background: url('../img/videoImg.jpg') no-repeat;
-  width: 360px;
-  height: 258px;
-<<<<<<< HEAD
-  display: block;
-=======
-  display: inline-block;
->>>>>>> origin/master
+ 
 }
 
 /* ===== services section ====== */
@@ -166,18 +147,71 @@ h2 {
   display: block;
 }
 
-<<<<<<< HEAD
-.servlist  div {
-  padding-top: 43px;
-  padding-left: 29px;
-=======
+.secthead > h3,h4 {
+  text-align: center;
+}
 
+.secthead > h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #454545;
+  padding-top: 40px;
+}
 
-.servlist  div {
-  padding-top: 43px;
-  padding-left: 29px;
-  
->>>>>>> origin/master
+.secthead h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  color: #454545;
+  padding-top: 12px;
+}
+
+.horzrule {
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 37px;
+  margin: 0 auto;
+}
+
+.secthead span {
+  color: #acd373;
+}
+
+.servcont {
+  height: 30px;
+  line-height: 30px;
+}
+
+img, .servitem {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.servcont img {
+  margin-left: 29px;
+  margin-right: 23px;
+}
+
+.servitem {
+  padding-bottom: 30px;
+}
+
+.servitem h5  {
+  color: #acd373;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*font-weight: bold;*/
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.servitem p {
+  color: #454545;
+  display: block;
+  width: 215px;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  font-size: 11px;
+  line-height: 16px;
+  padding-top: 13px;
 }
 
 .services button {
@@ -188,18 +222,66 @@ h2 {
   height: 30px;
   display: block; /*<-- is this right instead?*/
   border: 1px solid #acd373;
+  margin-top: 9px;
 }
 
-.services > button > a {
-<<<<<<< HEAD
+.services button > a {
   font-family: 'Droid Serif', serif;
   font-size: 11px;
   font-style: italic;
-=======
->>>>>>> origin/master
   text-decoration: none;
   color: #acd373;
 }
+
+/* ===== team section 5 ====== */
+
+.team {
+  width: 360;
+  height: 420;
+  background-color: #acd373;
+}
+
+.teamsect {
+  width: 200px;
+  height: 182px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.photo > img {
+  border-radius: 50px;
+  border: 5px;
+  border-style: solid;
+  border-color: #acd373;
+  position: relative; top: -35px;
+}
+
+.socialbar {
+  text-align: center;
+  line-height: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: #ebebeb;
+}
+
+.teamsect li {
+  vertical-align: bottom;
+  display: inline;
+  padding: 0 2.5px;
+  list-style: none;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
