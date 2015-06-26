@@ -87,7 +87,11 @@ h2 {
 
 .about h3 {
   color: #454545;
+<<<<<<< HEAD
   background: url('../img/manIcon.png') no-repeat;
+=======
+  background: url('../img/man449.png') no-repeat;
+>>>>>>> origin/master
   margin-left: 29px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
@@ -123,24 +127,34 @@ h2 {
 }
 
 .about > button > a {
+<<<<<<< HEAD
   font-family: 'Droid Serif', serif;
   font-size: 11px;
   font-style: italic;
+=======
+>>>>>>> origin/master
   text-decoration: none;
   color: #acd373;
 }
 
 /* ===== video section ====== */
+<<<<<<< HEAD
 
 .video {
    
 }
 
+=======
+>>>>>>> origin/master
 .video > a {
   background: url('../img/videoImg.jpg') no-repeat;
   width: 360px;
   height: 258px;
+<<<<<<< HEAD
   display: block;
+=======
+  display: inline-block;
+>>>>>>> origin/master
 }
 
 /* ===== services section ====== */
@@ -152,9 +166,18 @@ h2 {
   display: block;
 }
 
+<<<<<<< HEAD
 .servlist  div {
   padding-top: 43px;
   padding-left: 29px;
+=======
+
+
+.servlist  div {
+  padding-top: 43px;
+  padding-left: 29px;
+  
+>>>>>>> origin/master
 }
 
 .services button {
@@ -168,9 +191,12 @@ h2 {
 }
 
 .services > button > a {
+<<<<<<< HEAD
   font-family: 'Droid Serif', serif;
   font-size: 11px;
   font-style: italic;
+=======
+>>>>>>> origin/master
   text-decoration: none;
   color: #acd373;
 }
