@@ -622,6 +622,8 @@ img, .servitem {
   font-weight: normal;
   font-size: 16px;
   color: #f7f7f7;
+  /* offset-x | offset-y | blur-radius | color */
+  text-shadow: 1px 1px 2px black; 
 
 } 
 
@@ -631,13 +633,83 @@ img, .servitem {
   width: 360px;
   height: 450px;
   background-color: #acd373;
-}
-
-.contact form {
-  color: #;
-
 
 }
+
+.contact input {
+  display: block;
+  width: 300px;
+  height: 25px;
+  margin: 10px auto;
+  margin-bottom: 23px;
+  background-color: #89a85c;
+  color: #f7f7f7;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  padding-left: 13px;
+  line-height: 13px;
+  vertical-align: middle;
+  
+}
+
+.contact span {
+  color: #f7f7f7;
+  display: block;
+  margin-left: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding-bottom: 5px;
+
+}
+
+.button {
+  display: block;
+  background-color: #89a85c;
+  color: #f7f7f7;
+  width: 220px;
+  height: 32px;
+  margin: 0 auto;
+  font-family: 'Droid Serif', serif;
+  font-weight: normal;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+/* ===== Social block ====== */
+
+.social {
+  display: block;
+  background-color: #89a85c;
+  width: 360px;
+  height: 100px;
+  color: #f7f7f7;
+  text-align: center;
+  padding-top: 27px;
+}
+
+.social li {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  color: #f7f7f7;
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.social span {
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  margin-top: 13px;
+}
+
+
 
 
 
