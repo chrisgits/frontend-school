@@ -332,6 +332,7 @@ img, .servitem {
 /* ===== recent work section 6 ====== */
 
 .work {
+  display: block;
   background-color: #f7f7f7;
   width: 360px;
   height: 520px;
@@ -363,9 +364,8 @@ img, .servitem {
   margin: 0 auto;
 }
 
-
-
 .work button {
+  background-color: #f7f7f7;
   color: #acd373;
   width: 90px;
   height: 30px;
@@ -382,6 +382,263 @@ img, .servitem {
   text-decoration: none;
   color: #acd373;
 }
+
+.envato {
+  display: block;
+  width: 360px;
+  height: 80px;
+  background-color: #ebebeb;
+  line-height: 80px;
+}
+
+.envato img {
+  display: block;
+  width: 138px;
+  height: 30px;
+}
+
+/* ===== testimonial section 7 ====== */
+
+.testimony {
+  display: block;
+  background: rgba(37,37,37, 0.9);
+  background-image: url('../img/testimonialBg.jpg');
+  width: 360px;
+  height: 562px; 
+  padding-top: 61px
+}
+
+.quotebox {
+  display: block;
+  width: 290px;
+  height: 64px;
+  margin: 0 auto;
+  margin-bottom: 55px;
+  padding-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #f7f7f7;
+  color: #f7f7f7;
+  font-family: 'Droid Serif', serif;
+  font-size: 11px;
+}
+
+.clientprofile {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.clientprofile h5 {
+  display: inline-block;
+  line-height: 14px;
+  vertical-align: top;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: #acd373;
+  font-size: 14px;
+  padding-left: 22px;
+  padding-top: 15px;
+}
+
+.clientprofile span {
+  display: inline-block;
+  line-height: 12px;
+  vertical-align: top;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  color: #f7f7f7;
+  font-size: 12px;
+  padding-left: 22px;
+}
+
+.clientprofile a {
+  display: block;
+  margin: 0 auto;
+  padding-top: 23px;
+}
+
+.testimonialtext {
+  display: block;
+  padding-top: 70px;
+  margin-left: 30px;
+}
+
+.testimonialtext h4,p {
+  color: #f7f7f7;
+  text-align: left;
+}
+
+.testimonialtext h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  margin-bottom: 22px
+}
+
+.testimonialtext p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  margin-bottom: 23px;
+}
+
+.testimonialtext  button {
+  width: 128px;
+  height: 28px;
+  display: block; /*<-- is this right instead?*/
+  border: 1px solid #acd373;
+}
+
+.testimonialtext button > a {
+  font-family: 'Droid Serif', serif;
+  font-size: 10px;
+  font-style: italic;
+  text-decoration: none;
+  color: #acd373;
+}
+
+/* ===== Blog section 8 ====== */
+
+.blog {
+  width: 346px;
+  height: 612px;
+  background-color: #f7f7f7;
+  padding-left: 14px;
+}
+
+.blogItem {
+  width: 160px;
+  height: 220px;
+  background-color: #ebebeb;
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.blogGrid {
+  display: block;
+  margin-top: 0px;
+}
+
+.blogItem > img:nth-of-type(2) {
+  width: 30px;
+  height: 30px;
+  background-color: #acd373;
+  border-radius: 40px;
+  border: 5px solid #ebebeb;
+  position: relative; top: -20px;
+}
+
+.blogItem span {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 10.93px;
+}
+
+.blogDesc {
+  display: block;
+  background-color: #ebebeb;
+  width: 160px;
+  height: 50px;
+  text-decoration: none;
+}
+.blogItem button {
+  display: block;
+  width: 160px;
+  height: 30px;
+  background-color: #acd373;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
+}
+
+.blogItem button > a {
+  text-decoration: none;
+  color: #f7f7f7;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  font-size: 9px;
+}
+
+/* ===== newsletter block ====== */
+
+.newsletter {
+  display: block;
+  background-color: #acd373;
+  width: 360px;
+  height: 62px;
+  line-height: 62px;
+}
+
+.newsletter h4 {
+  color: #f7f7f7;
+  background-color: #acd373;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.newsletter form {
+  display: inline-block;
+}
+
+.newsletter input {
+  background-color: #acd373;
+  color: #f7f7f7;
+  width: 102px;
+  height: 22px;
+  border: 1px solid #f7f7f7;
+  font-size: 9px;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  padding-left: 8px;
+}
+
+.newsletter span {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  background-color: #f7f7f7;
+}
+
+.newsletter img {
+  width: 15px;
+  height: 15px;
+}
+
+/* ===== Map block ====== */
+.map {
+  background-image: url('../img/map.jpg');
+  display: block;
+  width: 360px;
+  height: 129px;
+  line-height: 129px;
+  text-align: center;
+}
+
+.map h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #f7f7f7;
+
+} 
+
+/* ===== Contact block ====== */
+
+.contact {
+  width: 360px;
+  height: 450px;
+  background-color: #acd373;
+}
+
+.contact form {
+  color: #;
+
+
+}
+
 
 
 

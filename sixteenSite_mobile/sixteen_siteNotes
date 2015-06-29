@@ -248,7 +248,7 @@ Description - Testimonials
   z-index: 163;
 }
 
-Quotebox
+Quotebox (300,84)
 	place - 61pxv from section top
 	T - Myriad Pro Italic
 	f - 12px
@@ -345,8 +345,8 @@ textblock below photo
 greenButton below textblock
 	wh (160, 30) color: #acd373
 	.Read_More {
-	  font-size: 14px;
-	  font-family: "Myriad Pro";
+	  font-size: 9px;
+	  font-family: "Droid Serif";
 	  color: rgb(247, 247, 247);
 	  line-height: 1.2;
 	  text-align: center;

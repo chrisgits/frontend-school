@@ -151,115 +151,124 @@
     </div>
     
     <button><a href="#">View All Works</a></button>
-    
-    <div> <!--section bottom Envato links-->
-      <img src="img/studioLogo.png"/>
-      <img src="img/forestLogo.png"/>
-    </div>
 
   </section> <!--END Recent Works-->
-  
-  <section> <!-- section 7 Testimonials-->
-    <img src="img/testimonialBg.jpg"/>
-    <div>
-    <quote>Quisquam eveniet quod incidunt ex, autem, ipsam est quam illo et! Nulla laborum exercitationem illum</quote>  
+ 
+     <div class"envato"> <!--section bottom Envato links-->
+      <img src="img/studioLogo.png"/>
+      <img src="img/forestLogo.png"/>
+    </div> 
+
+  <section class="testimony"> <!-- section 7 Testimonials-->
+    <!-- <img src="img/testimonialBg.jpg"/> -->
+
+    <div class="quotebox">
+      <quote>Quisquam eveniet quod incidunt ex, autem, ipsam est quam illo et! Nulla laborum exercitationem illum</quote>  
     </div>
     
-    <div>
+    <div class="clientprofile">
+
       <img src="img/client1.png"/>
       <h5>JOHN DOE</h5>
       <span>smashmagazine.com</span>
     
-      <img src="#"/><!-- carousel dots-->
+      <a href="#"><img src="#"/></a> <!-- carousel dots-->
     </div>
     
-    <div>
+    <div class="testimonialtext">
       <h4>TESTIMONIALS</h4>
       <p>Optio corporis fuga mollitia sit magni ut quasi consequuntur aut iste aspernatur totam similiue sint. Harum voluptas vero iste. itaque et in sit eveniet acusamus quibusdam cupiditate</p>
-      <button>Give Testimonials</button>
+
+      <button><a href="#">Give Testimonials</a></button>
     </div>
     
   </section> <!--end testimonial section-->
   
-  <section> <!-- section 8 Blog-->
-      
-    <div> <!--section title block-->
+  <section class="blog"> <!-- section 8 Blog-->
+
+    <div class="secthead"> <!--section title block-->
       <h3>BLOG</h3>
       <h4>“ Asperiores ea commodi eius a quo omnis esse ”</h4>
-      <img src="img/horz_rule.png"/>
+      <img src="img/horz_rule.png" class="horzrule"/>
     </div>
-    
-    <div><!--blog post grid-->
-      <div><!--post 1-->
+      
+    <div class="blogGrid"><!--blog post grid-->
+
+      <div class="blogItem"><!--post 1-->
         <img src="img/blog1.jpg"/>
         <img src="img/earthIcon.png"/>
         
-        <div>
+        <div class="blogDesc">
           <span>Web Design Fundamental</span>
         </div>
         
-        <button>Read More</button>
+        <button><a href="#">Read More</a></button>
       </div>
-      <div><!--post 2-->
+
+      <div class="blogItem"><!--post 2-->
         <img src="img/blog2.jpg"/>
         <img src="img/phoneIcon.png"/>
         
-        <div>
+        <div class="blogDesc">
           <span>Native Apps VS Web Apps, What is the better choice?</span>
         </div>
         
-        <button>Read More</button>
+        <button><a href="#">Read More</a></button>
       </div>
-      <div><!--post 3-->
+
+      <div class="blogItem"><!--post 3-->
         <img src="img/blog3.jpg"/>
         <img src="img/monitorIcon.png"/>
         
-        <div>
+        <div class="blogDesc">
           <span>Not UI vs UX, UI & UX</span>
         </div>
         
-        <button>Read More</button>
+        <button><a href="#">Read More</a></button>
       </div>
-      <div><!--post 4-->
+
+      <div class="blogItem"><!--post 4-->
         <img src="img/blog4.jpg"/>
         <img src="img/businessIcon.png"/>
         
-        <div>
+        <div class="blogDesc">
           <span>5 Quick Tips to get approved from Google Adsense</span>
         </div>
         
-        <button>Read More</button>
+        <button><a href="#">Read More</a></button>
       </div>
     
     </div><!--end post grid-->
     
-    <div><!--Newsletter email signup bar-->
+  </section>
+
+    <div class="newsletter"><!--Newsletter email signup bar-->
       <h4>Join Our Newsletter for article Updates</h4>
       <form>
-        <input type="email">example@ipsum.com</input>
-      </form>
-      <span><img src="img/emailIcon.png"/></span>
+        <input type="email" value="example@ipsum.com"></input>
+      </form><span><img src="img/emailIcon.png"/></span>
+      <!--space before this span causes element not to be connected-->
     </div>
-    
-  </section>
+
   
-  <section> <!-- section 9 Map-->
+  <section class="map"> <!-- section 9 Map-->
     
-    <img src="img/map.jpg"
+    <!-- <img src="img/map.jpg"/> -->
    <h5>See Map Details</h5>
   </section><!-- section 9 Map-->
   
-  <section> <!-- section 10 Contact form-->
+  <section class="contact"> <!-- section 10 Contact form-->
     
-    <div> <!--section title block-->
+    <div class="secthead"> <!--section title block-->
       <h3>CONTACT</h3>
-      <img src="img/horz_rule.png"/>
+      <h4>“ Asperiores ea commodi eius a quo omnis esse ”</h4>
+      <img src="img/horz_rule.png" class="horzrule"/>
     </div>
     
     <form>
-      <input type="text" label="Name">Carlos Shorter</input>
-      <input type="email" label="Email">shotercarlos@gmail.com</input>
-      <input type="text" label="Message">Message text</input>
+      <input type="text" label="Name" value="Carlos Shorter"></input>
+      <input type="email" label="Email" value="shotercarlos@gmail.com"></input>
+      <input type="text" label="Message" value="Message text"></input>
       
       <button type="submit">Send</button>
     </form>
