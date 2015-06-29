@@ -2,7 +2,7 @@
 
 body {
   font-size: 16px;
-  background-color: #9e9e9e;
+  background-color: #ebebeb;
   width: 360px;
   margin: 0 auto;
 }
@@ -569,7 +569,7 @@ img, .servitem {
 
 .newsletter h4 {
   color: #f7f7f7;
-  background-color: #acd373;
+  /*background-color: #acd373;*/
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   font-size: 12px;
@@ -595,13 +595,12 @@ img, .servitem {
 }
 
 .newsletter span {
-  height: 22px;
-  width: 22px;
-  display: inline-block;
   background-color: #f7f7f7;
 }
 
 .newsletter img {
+  vertical-align: middle;
+  border: 5.5px solid #f7f7f7;
   width: 15px;
   height: 15px;
 }
@@ -633,9 +632,11 @@ img, .servitem {
   width: 360px;
   height: 450px;
   background-color: #acd373;
-
 }
 
+.contact h3 + h4 {
+  color: #f7f7f7;
+}
 .contact input {
   display: block;
   width: 300px;
