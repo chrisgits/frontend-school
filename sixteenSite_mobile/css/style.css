@@ -1,8 +1,13 @@
 /* Sixteen Site CSS */
 
+input {
+  box-shadow: 0;
+  border: 0;
+}
+
 body {
   font-size: 16px;
-  background-color: #ebebeb;
+  background-color: blue;
   width: 360px;
   margin: 0 auto;
 }
@@ -149,19 +154,25 @@ h2 {
 
 .secthead > h3,h4 {
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+.white > * {
+  color: #f7f7f7;
+}
+
+.gray > * {
+  color: #454545;
 }
 
 .secthead > h3 {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
-  color: #454545;
   padding-top: 40px;
 }
 
 .secthead h4 {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
-  color: #454545;
   padding-top: 12px;
 }
 
@@ -171,7 +182,14 @@ h2 {
 
 .horzrule {
   display: block;
-  padding-top: 16px;
+  padding-top: 14px;
+  padding-bottom: 37px;
+  margin: 0 auto;
+}
+
+.horzlast {
+  display: block;
+  padding-top: 9px;
   padding-bottom: 37px;
   margin: 0 auto;
 }
@@ -255,7 +273,9 @@ img, .servitem {
   height: 182px;
   background-color: #f7f7f7;
   border-radius: 6px;
-  margin: 20px auto;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 61px;
   text-align: center;
   vertical-align: middle;
 }
@@ -351,11 +371,14 @@ img, .servitem {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   color: #454545;
+  padding-top: 25px;
 }
 
 .examplebar span {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
+  color: #454545;
+  line-height: 19px;
 
 }
 
@@ -391,10 +414,12 @@ img, .servitem {
   line-height: 80px;
 }
 
-.envato img {
-  display: block;
+.envato > img {
+  display: inline-block;
   width: 138px;
-  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 27px;
 }
 
 /* ===== testimonial section 7 ====== */
@@ -404,8 +429,8 @@ img, .servitem {
   background: rgba(37,37,37, 0.9);
   background-image: url('../img/testimonialBg.png');
   width: 360px;
-  height: 562px; 
-  padding-top: 61px;
+  height: 502px;
+  padding-top: 60px;
 }
 
 .quotebox {
@@ -413,14 +438,29 @@ img, .servitem {
   width: 290px;
   height: 64px;
   margin: 0 auto;
-  margin-bottom: 55px;
+  margin-bottom: 34px;
   padding-top: 20px;
   padding-left: 10px;
   border: 1px solid #f7f7f7;
   color: #f7f7f7;
   font-family: 'Droid Serif', serif;
   font-size: 11px;
+  line-height: 14px;
 }
+
+.name {
+  display: inline-block;
+  width: 210px;
+  height: 82px;
+}
+
+.ribbon {
+  display: block;
+  position: relative;
+  top: 37px;
+  left: -11px;
+}
+
 
 .clientprofile {
   display: block;
@@ -445,13 +485,14 @@ img, .servitem {
   line-height: 12px;
   vertical-align: top;
   font-family: 'Droid Serif', serif;
-  font-style: italic;
-  color: #f7f7f7;
   font-size: 12px;
+  font-style: italic;
+  font-weight: normal;
+  color: #f7f7f7;
   padding-left: 22px;
 }
 
-.clientprofile a {
+.name span {
   display: block;
   margin: 0 auto;
   padding-top: 23px;
@@ -460,6 +501,7 @@ img, .servitem {
 .navdots {
   margin-top: 24px;
   text-align: center;
+  line-height: 13px;
 }
 .navdots a {
   display: inline-block;
@@ -482,6 +524,7 @@ img, .servitem {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   margin-bottom: 22px;
+  font-weight: normal;
 }
 
 .testimonialtext p {
@@ -511,15 +554,20 @@ img, .servitem {
 /* ===== Blog section 8 ====== */
 
 .blog {
-  width: 346px;
+  width: 360px;
   height: 612px;
   background-color: #f7f7f7;
-  padding-left: 14px;
+}
+
+.blogGrid {
+  display: block;
+  margin-top: 0px;
+  margin-left: 14px;
 }
 
 .blogItem {
   width: 160px;
-  height: 220px;
+  height: 202px;
   background-color: #ebebeb;
   display: inline-block;
   margin-right: 8px;
@@ -527,47 +575,56 @@ img, .servitem {
   text-align: center;
 }
 
-.blogGrid {
-  display: block;
-  margin-top: 0px;
+.blogIcon {
+  width: 29px;
+  height: 29px;
+  background-color: #acd373;
+  border-radius: 20px;
+  border: 4px solid #ebebeb;
+  position: relative; top: -20px;
+  margin: 0 auto;
+  line-height: 29px;
 }
 
-.blogItem > img:nth-of-type(2) {
-  width: 30px;
-  height: 30px;
-  background-color: #acd373;
-  border-radius: 40px;
-  border: 5px solid #ebebeb;
-  position: relative; top: -20px;
+.blogIcon > img {
+  position: relative;
+  top: 4px;
 }
 
 .blogItem span {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 10.93px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .blogDesc {
   display: block;
   background-color: #ebebeb;
   width: 160px;
-  height: 50px;
+  height: 38px;
   text-decoration: none;
+  position: relative;
+  top: -10px;
 }
-.blogItem button {
+
+.blogButton {
   display: block;
   width: 160px;
   height: 30px;
   background-color: #acd373;
   font-family: 'Droid Serif', serif;
   font-size: 14px;
+  line-height: 30px;
 }
 
-.blogItem button > a {
+.blogButton > a {
   text-decoration: none;
   color: #f7f7f7;
   font-family: 'Droid Serif', serif;
   font-style: italic;
   font-size: 9px;
+  vertical-align: middle;
 }
 
 /* ===== newsletter block ====== */
@@ -585,7 +642,7 @@ img, .servitem {
   /*background-color: #acd373;*/
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 11px;
   display: inline-block;
   margin-left: 10px;
   vertical-align: middle;
@@ -593,6 +650,8 @@ img, .servitem {
 
 .newsletter form {
   display: inline-block;
+  text-align: right;
+  margin-left: 8px;
 }
 
 .newsletter input {
@@ -607,11 +666,15 @@ img, .servitem {
   padding-left: 8px;
 }
 
-.newsletter span {
+.newsletter > span {
   background-color: #f7f7f7;
+  width: 30px;
+  height: 31px;
 }
 
 .newsletter img {
+  display: inline-block;
+  text-align: center;
   vertical-align: middle;
   border: 5.5px solid #f7f7f7;
   width: 15px;
@@ -648,7 +711,7 @@ img, .servitem {
 }
 
 .contact h3 + h4 {
-  color: #f7f7f7;
+  color: #f7f7f7
 }
 .contact input {
   display: block;
@@ -656,14 +719,18 @@ img, .servitem {
   height: 25px;
   margin: 10px auto;
   margin-bottom: 23px;
-  background-color: #89a85c;
+  background-color: #9abd67;
   color: #f7f7f7;
   font-family: 'Droid Serif', serif;
   font-style: italic;
   padding-left: 13px;
   line-height: 13px;
   vertical-align: middle;
-  
+}
+
+.contact input:last-of-type {
+  height: 83px;
+  vertical-align: top;
 }
 
 .contact span {
@@ -674,12 +741,14 @@ img, .servitem {
   font-size: 14px;
   font-weight: normal;
   padding-bottom: 5px;
-
 }
+
+
+
 
 .button {
   display: block;
-  background-color: #89a85c;
+  background-color: #9abd67;
   color: #f7f7f7;
   width: 220px;
   height: 32px;
@@ -698,12 +767,15 @@ img, .servitem {
 
 .social {
   display: block;
-  background-color: #89a85c;
+  background-color: #9abd67;
   width: 360px;
   height: 100px;
   color: #f7f7f7;
   text-align: center;
-  padding-top: 27px;
+}
+
+.social ul {
+  padding-top: 29px;
 }
 
 .social li {
@@ -720,7 +792,7 @@ img, .servitem {
   display: inline-block;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
-  margin-top: 13px;
+  margin-top: 15px;
 }
 
 
