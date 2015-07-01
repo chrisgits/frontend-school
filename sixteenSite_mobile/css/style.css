@@ -323,7 +323,7 @@ img, .servitem {
 
 .joinbar button > a {
   font-family: 'Droid Serif', serif;
-  font-size: 10px;
+  font-size: 9px;
   font-style: italic;
   text-decoration: none;
   color: #f7f7f7;
@@ -402,10 +402,10 @@ img, .servitem {
 .testimony {
   display: block;
   background: rgba(37,37,37, 0.9);
-  background-image: url('../img/testimonialBg.jpg');
+  background-image: url('../img/testimonialBg.png');
   width: 360px;
   height: 562px; 
-  padding-top: 61px
+  padding-top: 61px;
 }
 
 .quotebox {
@@ -457,10 +457,20 @@ img, .servitem {
   padding-top: 23px;
 }
 
+.navdots {
+  margin-top: 24px;
+  text-align: center;
+}
+.navdots a {
+  display: inline-block;
+  text-align: center;
+}
+
 .testimonialtext {
   display: block;
   padding-top: 70px;
   margin-left: 30px;
+  padding-right: 25px;
 }
 
 .testimonialtext h4,p {
@@ -471,16 +481,19 @@ img, .servitem {
 .testimonialtext h4 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
-  margin-bottom: 22px
+  margin-bottom: 22px;
 }
 
 .testimonialtext p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
+  line-height: 16px;
+  font-weight: normal;
   margin-bottom: 23px;
 }
 
 .testimonialtext  button {
+  background: transparent;
   width: 128px;
   height: 28px;
   display: block; /*<-- is this right instead?*/
