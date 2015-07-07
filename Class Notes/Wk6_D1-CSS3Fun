@@ -1,0 +1,18 @@
+week 6 Day 1 - CSS - Tricks!
+
+pseudo elements of note:
+  :before
+  :after
+It does provide the final version with content but has limitations.
+
+h1:before {
+  background: red;
+  height: 10px
+  width: 10px;
+  display: block;
+  content: ' ';  /* This must be present to allow this to function*/
+}
+
+@media print {
+  /* apply styling into CSS that relates to printing*/
+}

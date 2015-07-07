@@ -1,0 +1,53 @@
+@media all and (min-width: 700px) {
+
+    body {
+        min-width: 935px;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .content {
+        max-width: 1172px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* ===== desktop nav section ===== */
+    nav {
+        height: 106px;
+        line-height: 106px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.06);
+    }
+    nav .main {
+        display: inline-block;
+        float: right;
+    }
+    nav .main a {
+        color: #f7f7f7;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 0 14px;
+    }
+    nav .main a.active,
+    nav .main a:hover {
+        border-bottom: 3px solid white;
+    }
+
+    nav .logo {
+  		  width: 150px;
+			  height: 50px;
+        margin-top: 20px;
+			  background-image: url('../img/logo_desk.png');
+			  display: inline-block;
+			  margin-top: 8px;
+			  margin-left: 30px;
+        height: auto;
+      }
+
+      
+}
+    /* ===== END desktop nav section ===== */

@@ -1,12 +1,13 @@
 /* Sixteen Site CSS */
 
+/* GLOBAL STYLES*/
 input {
   box-shadow: 0;
   border: 0;
 }
 
 body {
-  font-size: 16px;
+  font-size: 16px; /* BASE 1.0 EM*/
   background-color: blue;
   width: 360px;
   margin: 0 auto;
@@ -17,11 +18,22 @@ body {
   overflow: hidden;
 }
 
+/* END GLOBAL STYLES*/
+
+/* ===== nav section ===== */
 nav {
   background-color: #acd373;
   height: 40px;
   width: 360;
   box-shadow: 2px, 2px, 4px, rgba(0,0,0, 0.6);
+}
+
+nav .main {
+  display: none;
+}
+
+.content > .logo img {
+  display: none;
 }
 
 .logo {
@@ -42,10 +54,13 @@ nav {
     float: right;
 }
 
+
+/* ===== intro section ===== */
 .intro {
     color: #f7f7f7;
     height: 350px;
     background: #9abd67 url('../img/cityscape.png') no-repeat bottom center;
+    background-size: auto 85px;
 }
 
 .intro > div {
@@ -101,7 +116,7 @@ h2 {
   vertical-align: 30px;
   display: inline-block;
   padding-left: 43px;
-  
+
 }
 
 .about p {
@@ -110,7 +125,7 @@ h2 {
   font-size: 13px;
   margin-left: 29px;
   padding-right: 34px;
-  padding-bottom: 29px 
+  padding-bottom: 29px
 }
 
 .about button {
@@ -136,11 +151,11 @@ h2 {
 .video {
   width: 360px;
   height: 260px;
-   
+
 }
 
 .video > a {
- 
+
 }
 
 /* ===== services section ====== */
@@ -698,9 +713,9 @@ img, .servitem {
   font-size: 16px;
   color: #f7f7f7;
   /* offset-x | offset-y | blur-radius | color */
-  text-shadow: 1px 1px 2px black; 
+  text-shadow: 1px 1px 2px black;
 
-} 
+}
 
 /* ===== Contact block ====== */
 
@@ -711,17 +726,19 @@ img, .servitem {
 }
 
 .contact h3 + h4 {
-  color: #f7f7f7
+  color: #f7f7f7;
 }
 .contact input {
   display: block;
   width: 300px;
   height: 25px;
-  margin: 10px auto;
-  margin-bottom: 23px;
+  margin: 0 auto;
+  margin-top: 9px;
+  margin-bottom: 21px;
   background-color: #9abd67;
   color: #f7f7f7;
   font-family: 'Droid Serif', serif;
+  font-weight: normal;
   font-style: italic;
   padding-left: 13px;
   line-height: 13px;
@@ -740,11 +757,7 @@ img, .servitem {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   font-weight: normal;
-  padding-bottom: 5px;
 }
-
-
-
 
 .button {
   display: block;
@@ -794,20 +807,3 @@ img, .servitem {
   font-size: 13px;
   margin-top: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
