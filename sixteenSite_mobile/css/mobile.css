@@ -13,6 +13,18 @@ body {
   margin: 0 auto;
 }
 
+.desk {
+  display: none;
+}
+
+.mobile-b {
+  display: block;
+}
+
+.mobile-i {
+  display: inline-block;
+}
+
 .sr-only {
   text-indent: 9999em;
   overflow: hidden;
@@ -100,7 +112,6 @@ h2 {
 }
 
 .about > img {  /*phone img only*/
-  display: block;
   margin: 0 auto;
   padding-top: 43px;
 }
@@ -149,6 +160,7 @@ h2 {
 /* ===== video section ====== */
 
 .video {
+  background-image: url('../img/videoImg.jpg');
   width: 360px;
   height: 260px;
 
@@ -196,10 +208,21 @@ h2 {
 }
 
 .horzrule {
+  background-image: url('../img/horz_rule.png');
+  background-repeat: no-repeat;
+  width: 76px;
+  height: 13px;
   display: block;
-  padding-top: 14px;
-  padding-bottom: 37px;
-  margin: 0 auto;
+  margin: 13px auto;
+}
+
+.horzrulew {
+  background-image: url('../img/horzrule_w.png');
+  background-repeat: no-repeat;
+  width: 76px;
+  height: 13px;
+  display: block;
+  margin: 13px auto;
 }
 
 .horzlast {
@@ -253,7 +276,6 @@ img, .servitem {
   margin: 0 auto; /* is this okay? */
   width: 90px;
   height: 30px;
-  display: block; /*<-- is this right instead?*/
   border: 1px solid #acd373;
   margin-top: 9px;
 }

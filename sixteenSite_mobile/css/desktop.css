@@ -2,6 +2,33 @@
 
     body {
         min-width: 935px;
+        width: 100%;
+        background-color: gray;
+    }
+
+    .desk {
+      display: inline-block;
+    }
+
+    .desk-b {
+      display: block;
+    }
+
+    .mobile {
+      display: none;
+    }
+
+    .mobile-b {
+      display: block;
+    }
+
+    .mobile-i {
+      display: inline-block;
+    }
+
+    .sr-only {
+      text-indent: 9999em;
+      overflow: hidden;
     }
 
     .toggle {
@@ -9,12 +36,13 @@
     }
 
     .content {
-        max-width: 1172px;
+        max-width: 1170px;
         margin-left: auto;
         margin-right: auto;
     }
     /* ===== desktop nav section ===== */
     nav {
+        width: 100%;
         height: 106px;
         line-height: 106px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.06);
@@ -37,17 +65,264 @@
         border-bottom: 3px solid white;
     }
 
-    nav .logo {
+    .logo {
+        background-image: url('../img/logo_desk.png');
   		  width: 150px;
 			  height: 50px;
-        margin-top: 20px;
-			  background-image: url('../img/logo_desk.png');
-			  display: inline-block;
-			  margin-top: 8px;
-			  margin-left: 30px;
-        height: auto;
+        margin-top: 26px;
+        margin-left: 0px;
+        display: inline-block;
       }
+/* ===== END desktop nav section ===== */
 
-      
+/* ===== desktop intro section 1 ===== */
+
+section {
+  width: 100%;
 }
-    /* ===== END desktop nav section ===== */
+
+.about {
+  width: 100%;
+}
+
+.intro {
+  height: 700px;
+  padding-top: 230px;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.arrow {
+  background-image: url('../img/desk_arrow.png');
+  background-repeat: no-repeat;
+  width: 53px;
+  height: auto;
+  margin-top: 133px;
+}
+
+/* ===== desktop about section 2 ===== */
+
+.s-about {
+  width: 100%;
+  height: 580px;
+  background-color: #f7f7f7;
+}
+
+.about {
+  max-width: 1176px;
+  min-width: 935px;
+  margin-left: 13%;
+}
+
+.about h3 {
+  background: url('../img/man-desk.png') no-repeat;
+  font-size: 30px;
+  line-height: 53px;
+  font-weight: normal;
+  margin-top: 117px;
+  margin-bottom: 43px;
+  padding-left: 72px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1em;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.wrap {
+  width: 735px;
+  display: inline-block;
+}
+
+.about > img {
+  width: 152px;
+  height: 393px;
+  margin-left: 194px;
+  margin-top: 42px;
+}
+
+.about button {
+  font-size: 18px;
+  display: block;
+  position: relative;
+  top: -59px;
+  width: 142px;
+  height: 41px;
+  margin-top: 23px;
+}
+
+.s-about > img {
+  width: 152px;
+  display: block;
+
+}
+
+
+/* ===== video section  3 ===== */
+
+.video {
+  background-image: url('../img/video-desk.png');
+  width: 100%;
+  height: 522px;
+  }
+
+  /* ===== services section 4 ====== */
+/* 734 H f7f7f7 */
+
+/* -- secthead template -- */
+.secthead h3 {
+  font-size: 30px;
+  padding-top: 99px;
+}
+
+.secthead h4 {
+  font-size: 18px;
+}
+
+.horzrule {
+  background-image: url('../img/horz_rule-desk.png');
+  background-repeat: no-repeat;
+  width: 125px;
+  height: 10px;
+  display: block;
+  margin: 23px auto;
+}
+
+/* -- END secthead template -- */
+
+  .services {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 735px;
+  }
+
+  .servcont {
+    display: block;
+    width: 1210px;
+    height: 152px;
+    margin: 0 auto;
+    margin-top: 90px;
+  }
+
+  .servcont:last-of-type {
+    margin-top: 18px;
+  }
+
+  .servcont img {
+    width: 50px;
+
+  }
+
+  .servitem {
+    width: 290px;
+  }
+
+  .servitem h5 {
+    font-size: 20px;
+  }
+
+  .servitem  p {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .services button {
+    width: 142px;
+    height: 41px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  /* ===== team section 5 ====== */
+/* 654 H b-color: acd373  */
+.team {
+  width: 100%;
+  height: 654px;
+  
+}
+
+
+
+
+  /* ===== recent work section 6 ====== */
+
+
+
+
+
+
+  /* ===== testimonial section 7 ====== */
+
+
+
+
+
+  /* ===== Blog section 8 ====== */
+
+
+
+
+
+
+
+  /* ===== newsletter block ====== */
+
+
+
+
+
+
+  /* ===== Map block ====== */
+
+  .map {
+    background-image: url('../img/map.jpg');
+    display: block;
+    width: 360px;
+    height: 129px;
+    line-height: 129px;
+    text-align: center;
+  }
+
+  .map h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #f7f7f7;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 1px 1px 2px black;
+
+  }
+
+  /* ===== Contact block ====== */
+
+
+
+
+
+
+  /* ===== Social block ====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+}  /* END DESKTOP CSS */
