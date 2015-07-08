@@ -248,22 +248,32 @@ h2 {
 .team {
   width: 100%;
   height: 654px;
-  
 }
 
+.teamdiv {
+  display: inline-block;
 
+}
 
+.joinbar {
+  width: 100%;
+  margin-top: 107px;
+}
 
   /* ===== recent work section 6 ====== */
 
-
+.work {
+  width: 100%;
+}
 
 
 
 
   /* ===== testimonial section 7 ====== */
 
-
+.testimony {
+  width: 100%;
+}
 
 
 
