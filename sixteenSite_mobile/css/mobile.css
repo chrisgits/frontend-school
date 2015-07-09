@@ -354,6 +354,7 @@ img, .servitem {
 }
 
 .joinbar {
+  display: block;
   background-color: rgb(154,189,103);
   width: 360px;
   height: 66px;
@@ -465,6 +466,7 @@ img, .servitem {
   display: block;
   background: rgba(37,37,37, 0.9);
   background-image: url('../img/testimonialBg.png');
+  background-repeat: no-repeat;
   width: 360px;
   height: 502px;
   padding-top: 60px;
