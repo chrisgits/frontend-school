@@ -454,7 +454,7 @@ img, .servitem {
 
 .envato > img {
   display: inline-block;
-  width: 138px;
+  /*width: 138px;*/
   text-align: center;
   vertical-align: middle;
   margin-left: 27px;
